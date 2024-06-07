@@ -1,0 +1,130 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.header-banner {
+    height: 20%; /* Adjust as needed */
+    background-color: #D5C8ED;
+    display: flex;
+    flex-direction: column;
+}
+
+#logotopleft {
+    height: 15%; /* Adjust as needed */
+    width: 15%; /* Adjust as needed */
+}
+
+#logobotright {
+    height: 15%; /* Adjust as needed */
+    width: 15%; /* Adjust as needed */
+    align-self: flex-end;
+    margin-top: -7.5%; /* Adjust as needed */
+}
+
+#bannertitle {
+    font-size: 6vw; /* Adjust as needed */
+    margin-top: -3%; /* Adjust as needed */
+}
+
+#bannersubtitle {
+    font-size: 3vw; /* Adjust as needed */
+}
+
+.mainbody {
+    padding-top: 5%; /* Adjust as needed */
+    display: flex;
+    justify-content: space-around;
+}
+
+.leftbody {
+    width: 60%; /* Adjust as needed */
+    height: 50%; /* Adjust as needed */
+    border-radius: 5%; /* Adjust as needed */
+    padding: 2%; /* Adjust as needed */
+    background-color: #FDF6E1;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+#bigtext1 {
+    font-size: 5vw; /* Adjust as needed */
+    width: 60%; /* Adjust as needed */
+    padding: 2% 5%; /* Adjust as needed */
+}
+
+#textinside1,
+#textinside2 {
+    font-size: 1.5vw; /* Adjust as needed */
+    width: 70%; /* Adjust as needed */
+    padding: 0.5% 5%; /* Adjust as needed */
+}
+
+#buttonshopnow {
+    width: 40%; /* Adjust as needed */
+    height: 10%; /* Adjust as needed */
+    font-size: 2vw; /* Adjust as needed */
+    margin-top: 5%; /* Adjust as needed */
+}
+
+.rightbody {
+    width: 20%; /* Adjust as needed */
+    border-radius: 5%; /* Adjust as needed */
+    padding: 1%; /* Adjust as needed */
+    background-color: #FDF6E1;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+#textRight1 {
+    font-size: 10vw; /* Adjust as needed */
+}
+
+#textRight2 {
+    font-size: 2vw; /* Adjust as needed */
+}
+
+.imageContent {
+    display: flex;
+    z-index: 0;
+    margin-top: -25%; /* Adjust as needed */
+}
+
+#image1background {
+    border-radius: 50%;
+    background-color: #D7CEBE;
+    height: 40%; /* Adjust as needed */
+    width: 40%; /* Adjust as needed */
+}
+
+#image1body {
+    height: 50%; /* Adjust as needed */
+    width: 50%; /* Adjust as needed */
+    margin-left: -25%; /* Adjust as needed */
+    margin-top: -1.5%; /* Adjust as needed */
+}
+
+.rightbody {
+    width: 20%; /* Adjust as needed */
+    border-radius: 5%; /* Adjust as needed */
+    padding-block: 1%; /* Adjust as needed */
+    background-color: #FDF6E1;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+#textRight1 {
+    font-size: 8vw; /* Adjust as needed */
+}
+
+#textRight2 {
+    font-size: 1.5vw; /* Adjust as needed */
+}
+
+#image2body {
+    height: 20%; /* Adjust as needed */
+    padding-left: 2%; /* Adjust as needed */
+}
